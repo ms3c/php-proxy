@@ -35,10 +35,10 @@ define('HTTP_PROXY_TARGET_URL', 'HTTP_PROXY_TARGET_URL');
 define('HTTP_PROXY_DEBUG', 'HTTP_PROXY_DEBUG');
 
 // Uncomment this to simulate target header
-// $_SERVER[HTTP_PROXY_TARGET_URL] = 'https://github.com/';
+ $_SERVER[HTTP_PROXY_TARGET_URL] = 'http://kproxy.com/';
 
 // Uncomment this to simulate auth key (or to disable the need of passing the key with each request)
-// $_SERVER[HTTP_PROXY_AUTH] = AUTH_KEY;
+ $_SERVER[HTTP_PROXY_AUTH] = AUTH_KEY;
 
 // Uncomment this to enable debug mode
 // $_SERVER[HTTP_PROXY_DEBUG] = '1';
